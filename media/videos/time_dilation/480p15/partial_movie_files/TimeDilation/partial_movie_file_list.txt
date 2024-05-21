@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/1185818338_1833905199_223132457.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_4208380842_3176634568.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_1141282389_3810360106.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_3202837010_4088117124.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_1204564800_1669523157.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_2758893772_1576181765.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_4157075291_2351105875.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_1034209997_656816430.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_3660772096_2197942505.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_2475379470_1504268447.mp4'
+file 'file:C:/Users/user/Documents/GitHub/Manim/media/videos/time_dilation/480p15/partial_movie_files/TimeDilation/624642324_88263477_4045178331.mp4'
