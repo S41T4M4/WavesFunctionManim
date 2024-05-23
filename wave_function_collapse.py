@@ -15,11 +15,13 @@ class WaveFunctionCollapse(Scene):
         explanation.next_to(title, DOWN)
         self.play(FadeIn(explanation))
         self.wait(2)
+        self.play(FadeOut(title), FadeOut(explanation))
+        self.wait(1)
 
         # Criação da onda em superposição
         superposition_wave = FunctionGraph(
             lambda x: np.sin(3 * x),
-            x_range=[-3, 3],
+            x_range=[-6, 6],
             color=BLUE
         )
 
@@ -28,7 +30,7 @@ class WaveFunctionCollapse(Scene):
         self.wait(2)
 
         # Explicação do colapso
-        collapse_text = Text("Collapse of the wave function", font_size=26)
+        collapse_text = Text("Collapse of the wave function", font_size=36)
         collapse_text.next_to(explanation, DOWN)
         self.play(FadeIn(collapse_text))
         self.wait(2)
@@ -48,7 +50,9 @@ class WaveFunctionCollapse(Scene):
         # Fim
         self.play(FadeOut(title), FadeOut(explanation), FadeOut(collapse_text),
                   FadeOut(collapsed_state), FadeOut(collapsed_text), FadeOut(superposition_wave))
-        final_text1 =Text("Vitor Ibraim" ,gradient=(RED, BLUE, GREEN), font_size=68).next_to(collapse_text, ORIGIN)
+        final_text1 =Text("Vitor Ibraim" ,gradient=(GREEN, BLUE, RED), font_size=68).next_to(collapse_text, ORIGIN)
         self.play(FadeIn(final_text1), run_time=2)
         final_text2 =Text("https://github.com/S41T4M4/" ,gradient=(RED, BLUE, GREEN), font_size =60).next_to(final_text1,DOWN)
         self.play(FadeIn(final_text2), run_time=2)
+        self.play(FadeOut(final_text1), FadeOut(final_text2))
+        self.wait(2)
