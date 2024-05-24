@@ -55,4 +55,4 @@ class WaveFunctionCollapse(Scene):
         final_text2 =Text("https://github.com/S41T4M4/" ,gradient=(RED, BLUE, GREEN), font_size =60).next_to(final_text1,DOWN)
         self.play(FadeIn(final_text2), run_time=2)
         self.play(FadeOut(final_text1), FadeOut(final_text2))
-        self.wait(2)
+        self.wait(1)
